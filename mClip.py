@@ -18,6 +18,7 @@ if len(sys.argv) < 2:
 keyphrase = sys.argv[1]    # first command line arg is the keyphrase
 if keyphrase == "add":
     key = str(input("Enter the Key: "))
+    
 
     if key not in TEXT:
         phrase = str(input("Enter the text for this phrase: "))
